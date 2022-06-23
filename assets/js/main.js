@@ -115,7 +115,7 @@ var datetime = `${
 
 document.getElementById('time').value = datetime;
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzFEU5CsBVeXDx0kxJ9iP_Cr_BswfSVubuJPaKnlGjnFVyBGHIp1DDfj6h5i_meVNdi/exec'
+const scriptURL = 'YOUR WEB APP LINK FROM SPREADSHEET'
 const form = document.forms['submit-to-google-sheet']
 const cn_success = document.querySelector('.contact_notice.success'),
     cn_error = document.querySelector('.contact_notice.error')
