@@ -470,12 +470,15 @@ button, .button{
 }
 .qualification_tabs .qualification_active{
   color: var(--first-color);
+  background-color: var(--input-color);
 }
 .qualification_button{
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   cursor: pointer;
   transition: 0.3s;
+  border-radius: 10px;
+  padding: 5px 10px !important;
 }
 .qualification_button:hover{
   color: var(--first-color);
@@ -621,9 +624,10 @@ button, .button{
   padding:  1.5rem;
 }
 .porfolio_img{
-  width: 300px;
+  width: 380px;
   border-radius: .5rem;
   justify-self: center;
+  box-shadow: 0px 30px 10px -20px #00000010;
 }
 .porfolio_title{
   font-size: var(--h3-font-size);
@@ -942,7 +946,7 @@ button, .button{
     max-width: 600px;
   }
   .porfolio_img{
-    width: 320px;
+    width: 380px;
   }
   .portfolio_content{
     align-items: center;
